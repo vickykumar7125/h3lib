@@ -1,0 +1,2151 @@
+{
+  "source": "https://h3geo.org/docs (content from github.com/uber/h3 website/docs)",
+  "page_count": 44,
+  "sections": {
+    "api": 8,
+    "community": 4,
+    "comparisons": 5,
+    "core-library": 11,
+    "highlights": 5,
+    "library": 9,
+    "root": 2
+  },
+  "by_section": {
+    "api": [
+      {
+        "title": "Directed edge functions",
+        "path": "api/directededge.mdx",
+        "url": "https://h3geo.org/docs/api/uniedge",
+        "funcs": 9,
+        "words": 1882
+      },
+      {
+        "title": "Hierarchical grid functions",
+        "path": "api/hierarchy.mdx",
+        "url": "https://h3geo.org/docs/api/hierarchy",
+        "funcs": 9,
+        "words": 2465
+      },
+      {
+        "title": "Indexing functions",
+        "path": "api/indexing.mdx",
+        "url": "https://h3geo.org/docs/api/indexing",
+        "funcs": 3,
+        "words": 776
+      },
+      {
+        "title": "Index inspection functions",
+        "path": "api/inspection.mdx",
+        "url": "https://h3geo.org/docs/api/inspection",
+        "funcs": 12,
+        "words": 2537
+      },
+      {
+        "title": "Miscellaneous H3 functions",
+        "path": "api/misc.mdx",
+        "url": "https://h3geo.org/docs/api/misc",
+        "funcs": 21,
+        "words": 4021
+      },
+      {
+        "title": "Region functions",
+        "path": "api/regions.mdx",
+        "url": "https://h3geo.org/docs/api/regions",
+        "funcs": 5,
+        "words": 2057
+      },
+      {
+        "title": "Grid traversal functions",
+        "path": "api/traversal.mdx",
+        "url": "https://h3geo.org/docs/api/traversal",
+        "funcs": 15,
+        "words": 3606
+      },
+      {
+        "title": "Vertex functions",
+        "path": "api/vertex.mdx",
+        "url": "https://h3geo.org/docs/api/vertex",
+        "funcs": 4,
+        "words": 863
+      }
+    ],
+    "community": [
+      {
+        "title": "Applications Using H3",
+        "path": "community/applications.md",
+        "url": "https://h3geo.org/docs/community/applications",
+        "funcs": 1,
+        "words": 76
+      },
+      {
+        "title": "Bindings",
+        "path": "community/bindings.md",
+        "url": "https://h3geo.org/docs/community/bindings",
+        "funcs": 29,
+        "words": 599
+      },
+      {
+        "title": "Libraries Using H3",
+        "path": "community/libraries.md",
+        "url": "https://h3geo.org/docs/community/libraries",
+        "funcs": 3,
+        "words": 83
+      },
+      {
+        "title": "Learning Resources",
+        "path": "community/tutorials.md",
+        "url": "https://h3geo.org/docs/community/tutorials",
+        "funcs": 5,
+        "words": 302
+      }
+    ],
+    "comparisons": [
+      {
+        "title": "Admin Boundaries",
+        "path": "comparisons/admin.md",
+        "url": "https://h3geo.org/docs/comparisons/admin",
+        "funcs": 0,
+        "words": 275
+      },
+      {
+        "title": "Geohash",
+        "path": "comparisons/geohash.md",
+        "url": "https://h3geo.org/docs/comparisons/geohash",
+        "funcs": 1,
+        "words": 188
+      },
+      {
+        "title": "Hexbin",
+        "path": "comparisons/hexbin.md",
+        "url": "https://h3geo.org/docs/comparisons/hexbin",
+        "funcs": 0,
+        "words": 213
+      },
+      {
+        "title": "Placekey",
+        "path": "comparisons/placekey.md",
+        "url": "https://h3geo.org/docs/comparisons/placekey",
+        "funcs": 0,
+        "words": 98
+      },
+      {
+        "title": "S2",
+        "path": "comparisons/s2.md",
+        "url": "https://h3geo.org/docs/comparisons/s2",
+        "funcs": 4,
+        "words": 403
+      }
+    ],
+    "core-library": [
+      {
+        "title": "Generate the cell boundary in latitude/longitude coordinates of an H3Index cell",
+        "path": "core-library/cellToBoundaryDesc.md",
+        "url": "https://h3geo.org/docs/core-library/cellToBoundaryDesc",
+        "funcs": 0,
+        "words": 242
+      },
+      {
+        "title": "Determine the latitude/longitude coordinates of the center point of an H3Index cell",
+        "path": "core-library/cellToLatLngDesc.md",
+        "url": "https://h3geo.org/docs/core-library/cellToLatLngDesc",
+        "funcs": 0,
+        "words": 296
+      },
+      {
+        "title": "Compilation options",
+        "path": "core-library/compilation-options.md",
+        "url": "https://h3geo.org/docs/core-library/compilation-options",
+        "funcs": 20,
+        "words": 573
+      },
+      {
+        "title": "Coordinate systems",
+        "path": "core-library/coordsystems.md",
+        "url": "https://h3geo.org/docs/core-library/coordsystems",
+        "funcs": 0,
+        "words": 444
+      },
+      {
+        "title": "Creating bindings for H3",
+        "path": "core-library/creating-bindings.md",
+        "url": "https://h3geo.org/docs/core-library/creating-bindings",
+        "funcs": 2,
+        "words": 265
+      },
+      {
+        "title": "Memory allocation",
+        "path": "core-library/custom-alloc.md",
+        "url": "https://h3geo.org/docs/core-library/custom-alloc",
+        "funcs": 0,
+        "words": 265
+      },
+      {
+        "title": "Unix-style Filters for H3",
+        "path": "core-library/filters.md",
+        "url": "https://h3geo.org/docs/core-library/filters",
+        "funcs": 0,
+        "words": 231
+      },
+      {
+        "title": "Conversion from latitude/longitude to containing H3 cell index",
+        "path": "core-library/latLngToCellDesc.md",
+        "url": "https://h3geo.org/docs/core-library/latLngToCellDesc",
+        "funcs": 0,
+        "words": 255
+      },
+      {
+        "title": "Overview of the H3 Geospatial Indexing System",
+        "path": "core-library/overview.md",
+        "url": "https://h3geo.org/docs/core-library/overview",
+        "funcs": 0,
+        "words": 449
+      },
+      {
+        "title": "Testing strategy",
+        "path": "core-library/testing.md",
+        "url": "https://h3geo.org/docs/core-library/testing",
+        "funcs": 2,
+        "words": 548
+      },
+      {
+        "title": "Public API",
+        "path": "core-library/usage.md",
+        "url": "https://h3geo.org/docs/core-library/usage",
+        "funcs": 0,
+        "words": 204
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Aggregation",
+        "path": "highlights/aggregation.md",
+        "url": "https://h3geo.org/docs/highlights/aggregation",
+        "funcs": 1,
+        "words": 271
+      },
+      {
+        "title": "Flow Modelling",
+        "path": "highlights/flowmodel.md",
+        "url": "https://h3geo.org/docs/highlights/flowmodel",
+        "funcs": 1,
+        "words": 115
+      },
+      {
+        "title": "Indexing",
+        "path": "highlights/indexing.md",
+        "url": "https://h3geo.org/docs/highlights/indexing",
+        "funcs": 1,
+        "words": 494
+      },
+      {
+        "title": "Joining",
+        "path": "highlights/joining.md",
+        "url": "https://h3geo.org/docs/highlights/joining",
+        "funcs": 1,
+        "words": 109
+      },
+      {
+        "title": "Machine Learning",
+        "path": "highlights/ml.md",
+        "url": "https://h3geo.org/docs/highlights/ml",
+        "funcs": 1,
+        "words": 114
+      }
+    ],
+    "root": [
+      {
+        "title": "Installation",
+        "path": "installation.mdx",
+        "url": "https://h3geo.org/docs/installation",
+        "funcs": 0,
+        "words": 524
+      },
+      {
+        "title": "Quick Start",
+        "path": "quickstart.md",
+        "url": "https://h3geo.org/docs/quickstart",
+        "funcs": 0,
+        "words": 211
+      }
+    ],
+    "library": [
+      {
+        "title": "Error handling",
+        "path": "library/errors.md",
+        "url": "https://h3geo.org/docs/library/errors",
+        "funcs": 2,
+        "words": 510
+      },
+      {
+        "title": "Cell mode",
+        "path": "library/index/cell.md",
+        "url": "https://h3geo.org/docs/library/index/cell",
+        "funcs": 1,
+        "words": 563
+      },
+      {
+        "title": "Directed edge mode",
+        "path": "library/index/directededge.md",
+        "url": "https://h3geo.org/docs/library/index/directededge",
+        "funcs": 0,
+        "words": 336
+      },
+      {
+        "title": "H3 Index",
+        "path": "library/index/h3indexing.md",
+        "url": "https://h3geo.org/docs/core-library/h3Indexing",
+        "funcs": 2,
+        "words": 486
+      },
+      {
+        "title": "Vertex mode",
+        "path": "library/index/vertex.md",
+        "url": "https://h3geo.org/docs/library/index/vertex",
+        "funcs": 0,
+        "words": 380
+      },
+      {
+        "title": "Migrating from H3 version 3.x",
+        "path": "library/migrating-3.x.md",
+        "url": "https://h3geo.org/docs/library/migrating-3.x",
+        "funcs": 0,
+        "words": 210
+      },
+      {
+        "title": "Function name changes",
+        "path": "library/migration-3.x/functions.md",
+        "url": "https://h3geo.org/docs/library/migration-3.x/functions",
+        "funcs": 1,
+        "words": 491
+      },
+      {
+        "title": "Tables of Cell Statistics Across Resolutions",
+        "path": "library/restable.md",
+        "url": "https://h3geo.org/docs/core-library/restable",
+        "funcs": 0,
+        "words": 1337
+      },
+      {
+        "title": "Terminology",
+        "path": "library/terminology.md",
+        "url": "https://h3geo.org/docs/library/terminology",
+        "funcs": 1,
+        "words": 665
+      }
+    ]
+  },
+  "api_function_total": 157,
+  "api_functions_unique": [
+    "AUDIT_SOURCE_FILE_LIST",
+    "Athena",
+    "BUILD_ALLOC_TESTS",
+    "BUILD_BENCHMARKS",
+    "BUILD_COUNTRY_BENCHMARKS",
+    "BUILD_FILTERS",
+    "BUILD_FUZZERS",
+    "BUILD_GENERATORS",
+    "BUILD_TESTING",
+    "Benchmarks",
+    "BigQuery",
+    "CMAKE_BUILD_TYPE",
+    "ClickHouse",
+    "Clojure",
+    "Community",
+    "Dart",
+    "Databricks",
+    "Delphi",
+    "Documentation",
+    "DuckDB",
+    "ECL",
+    "ENABLE_COVERAGE",
+    "ENABLE_DOCS",
+    "ENABLE_FORMAT",
+    "ENABLE_LIBFUZZER",
+    "ENABLE_LINTING",
+    "ENABLE_WARNINGS",
+    "Erlang",
+    "Example",
+    "Fuzzers",
+    "Go",
+    "H3_ALLOC_PREFIX",
+    "H3_PREFIX",
+    "Identifiers",
+    "Introduction",
+    "Java",
+    "JavaScript",
+    "Julia",
+    "Kinetica",
+    "Links",
+    "Neighbors",
+    "Nim",
+    "OCaml",
+    "PHP",
+    "PRINT_TEST_FILES",
+    "Perl",
+    "Polygons",
+    "PostgreSQL",
+    "Presto",
+    "Python",
+    "R",
+    "References",
+    "Ruby",
+    "Rust",
+    "SQLite3",
+    "Snowflake",
+    "Spark",
+    "Subdivision",
+    "Swift",
+    "Videos",
+    "Visualization",
+    "WARNINGS_AS_ERRORS",
+    "WRAP_VALGRIND",
+    "areNeighborCells",
+    "cellAreaKm2",
+    "cellAreaM2",
+    "cellAreaRads2",
+    "cellToBoundary",
+    "cellToCenterChild",
+    "cellToChildPos",
+    "cellToChildren",
+    "cellToChildrenSize",
+    "cellToLatLng",
+    "cellToLocalIj",
+    "cellToParent",
+    "cellToVertex",
+    "cellToVertexes",
+    "cellsToDirectedEdge",
+    "childPosToCell",
+    "compactCells",
+    "constructCell",
+    "degsToRads",
+    "describeH3Error",
+    "destroyLinkedMultiPolygon",
+    "directedEdgeToBoundary",
+    "directedEdgeToCells",
+    "edgeLengthKm",
+    "edgeLengthM",
+    "edgeLengthRads",
+    "getBaseCellNumber",
+    "getDirectedEdgeDestination",
+    "getDirectedEdgeOrigin",
+    "getHexagonAreaAvgKm2",
+    "getHexagonAreaAvgM2",
+    "getHexagonEdgeLengthAvgKm",
+    "getHexagonEdgeLengthAvgM",
+    "getIcosahedronFaces",
+    "getIndexDigit",
+    "getNumCells",
+    "getPentagons",
+    "getRes0Cells",
+    "getResolution",
+    "greatCircleDistanceKm",
+    "greatCircleDistanceM",
+    "greatCircleDistanceRads",
+    "gridDisk",
+    "gridDiskDistances",
+    "gridDiskDistancesSafe",
+    "gridDiskDistancesUnsafe",
+    "gridDiskUnsafe",
+    "gridDisksUnsafe",
+    "gridDistance",
+    "gridPathCells",
+    "gridPathCellsSize",
+    "gridRing",
+    "gridRingUnsafe",
+    "h3ToString",
+    "isPentagon",
+    "isResClassIII",
+    "isValidCell",
+    "isValidDirectedEdge",
+    "isValidIndex",
+    "isValidVertex",
+    "latLngToCell",
+    "localIjToCell",
+    "maxFaceCount",
+    "maxGridDiskSize",
+    "maxGridRingSize",
+    "maxPolygonToCellsSize",
+    "maxPolygonToCellsSizeExperimental",
+    "originToDirectedEdges",
+    "pentagonCount",
+    "polygonToCells",
+    "polygonToCellsExperimental",
+    "radsToDegs",
+    "res0CellCount",
+    "reverseDirectedEdge",
+    "stringToH3",
+    "uncompactCells",
+    "uncompactCellsSize",
+    "vertexToLatLng"
+  ],
+  "api_catalog": {
+    "api/directededge.mdx": [
+      "areNeighborCells",
+      "cellsToDirectedEdge",
+      "isValidDirectedEdge",
+      "getDirectedEdgeOrigin",
+      "getDirectedEdgeDestination",
+      "directedEdgeToCells",
+      "originToDirectedEdges",
+      "directedEdgeToBoundary",
+      "reverseDirectedEdge"
+    ],
+    "api/hierarchy.mdx": [
+      "cellToParent",
+      "cellToChildren",
+      "cellToChildrenSize",
+      "cellToCenterChild",
+      "cellToChildPos",
+      "childPosToCell",
+      "compactCells",
+      "uncompactCells",
+      "uncompactCellsSize"
+    ],
+    "api/indexing.mdx": [
+      "latLngToCell",
+      "cellToLatLng",
+      "cellToBoundary"
+    ],
+    "api/inspection.mdx": [
+      "getResolution",
+      "getBaseCellNumber",
+      "getIndexDigit",
+      "constructCell",
+      "stringToH3",
+      "h3ToString",
+      "isValidCell",
+      "isValidIndex",
+      "isResClassIII",
+      "isPentagon",
+      "getIcosahedronFaces",
+      "maxFaceCount"
+    ],
+    "api/misc.mdx": [
+      "degsToRads",
+      "radsToDegs",
+      "getHexagonAreaAvgKm2",
+      "getHexagonAreaAvgM2",
+      "cellAreaRads2",
+      "cellAreaKm2",
+      "cellAreaM2",
+      "getHexagonEdgeLengthAvgKm",
+      "getHexagonEdgeLengthAvgM",
+      "edgeLengthKm",
+      "edgeLengthM",
+      "edgeLengthRads",
+      "getNumCells",
+      "getRes0Cells",
+      "res0CellCount",
+      "getPentagons",
+      "pentagonCount",
+      "greatCircleDistanceKm",
+      "greatCircleDistanceM",
+      "greatCircleDistanceRads",
+      "describeH3Error"
+    ],
+    "api/regions.mdx": [
+      "polygonToCells",
+      "maxPolygonToCellsSize",
+      "polygonToCellsExperimental",
+      "maxPolygonToCellsSizeExperimental",
+      "destroyLinkedMultiPolygon"
+    ],
+    "api/traversal.mdx": [
+      "gridDistance",
+      "gridRing",
+      "gridRingUnsafe",
+      "maxGridRingSize",
+      "gridDisk",
+      "maxGridDiskSize",
+      "gridDiskDistances",
+      "gridDiskUnsafe",
+      "gridDiskDistancesUnsafe",
+      "gridDiskDistancesSafe",
+      "gridDisksUnsafe",
+      "gridPathCells",
+      "gridPathCellsSize",
+      "cellToLocalIj",
+      "localIjToCell"
+    ],
+    "api/vertex.mdx": [
+      "cellToVertex",
+      "cellToVertexes",
+      "vertexToLatLng",
+      "isValidVertex"
+    ]
+  },
+  "external_hosts": [
+    [
+      "github.com",
+      65
+    ],
+    [
+      "www.youtube.com",
+      9
+    ],
+    [
+      "observablehq.com",
+      8
+    ],
+    [
+      "uber.github.io",
+      6
+    ],
+    [
+      "en.wikipedia.org",
+      5
+    ],
+    [
+      "data.sfgov.org",
+      3
+    ],
+    [
+      "webpages.sou.edu",
+      3
+    ],
+    [
+      "www.placekey.io",
+      2
+    ],
+    [
+      "epsg.io",
+      2
+    ],
+    [
+      "h3geo.org",
+      1
+    ],
+    [
+      "kepler.gl",
+      1
+    ],
+    [
+      "deckgl.readthedocs.io",
+      1
+    ],
+    [
+      "h3.chotard.com",
+      1
+    ],
+    [
+      "clickhouse.com",
+      1
+    ],
+    [
+      "docs.databricks.com",
+      1
+    ],
+    [
+      "docs.kinetica.com",
+      1
+    ],
+    [
+      "docs.microsoft.com",
+      1
+    ],
+    [
+      "beta.observablehq.com",
+      1
+    ],
+    [
+      "join.slack.com",
+      1
+    ],
+    [
+      "data.cityofnewyork.us",
+      1
+    ],
+    [
+      "fas.org",
+      1
+    ],
+    [
+      "towardsdatascience.com",
+      1
+    ],
+    [
+      "docs.google.com",
+      1
+    ],
+    [
+      "s2geometry.io",
+      1
+    ],
+    [
+      "cmake.org",
+      1
+    ],
+    [
+      "gcc.gnu.org",
+      1
+    ],
+    [
+      "lcamtuf.coredump.cx",
+      1
+    ],
+    [
+      "www.llvm.org",
+      1
+    ],
+    [
+      "richard.science",
+      1
+    ],
+    [
+      "valgrind.org",
+      1
+    ]
+  ],
+  "pages": [
+    {
+      "path": "api/directededge.mdx",
+      "section": "api",
+      "url": "https://h3geo.org/docs/api/uniedge",
+      "id": "uniedge",
+      "title": "Directed edge functions",
+      "slug": "/api/uniedge",
+      "bytes": 17134,
+      "words": 1882,
+      "n_headings": 9,
+      "headings": [
+        "areNeighborCells",
+        "cellsToDirectedEdge",
+        "isValidDirectedEdge",
+        "getDirectedEdgeOrigin",
+        "getDirectedEdgeDestination",
+        "directedEdgeToCells",
+        "originToDirectedEdges",
+        "directedEdgeToBoundary",
+        "reverseDirectedEdge"
+      ],
+      "api_functions": [
+        "areNeighborCells",
+        "cellsToDirectedEdge",
+        "isValidDirectedEdge",
+        "getDirectedEdgeOrigin",
+        "getDirectedEdgeDestination",
+        "directedEdgeToCells",
+        "originToDirectedEdges",
+        "directedEdgeToBoundary",
+        "reverseDirectedEdge"
+      ],
+      "n_api_functions": 9,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nDirected edges allow encoding the directed (that is, which cell is the origin and which is the destination can be determined)\nedge from one cell to a neighboring cell.\n\n## areNeighborCells\n\nDetermines whether or not the provided H3 cells are neighbors.\n\n<Tabs\n  groupId=\"language\"\n  defaultValue=\"c\"\n  values={[\n    {label: 'C', value: 'c'},\n    {label: 'Java', value: 'java'},\n    {label: 'JavaScript (Live)', value: 'javascript"
+    },
+    {
+      "path": "api/hierarchy.mdx",
+      "section": "api",
+      "url": "https://h3geo.org/docs/api/hierarchy",
+      "id": "hierarchy",
+      "title": "Hierarchical grid functions",
+      "slug": "/api/hierarchy",
+      "bytes": 20510,
+      "words": 2465,
+      "n_headings": 9,
+      "headings": [
+        "cellToParent",
+        "cellToChildren",
+        "cellToChildrenSize",
+        "cellToCenterChild",
+        "cellToChildPos",
+        "childPosToCell",
+        "compactCells",
+        "uncompactCells",
+        "uncompactCellsSize"
+      ],
+      "api_functions": [
+        "cellToParent",
+        "cellToChildren",
+        "cellToChildrenSize",
+        "cellToCenterChild",
+        "cellToChildPos",
+        "childPosToCell",
+        "compactCells",
+        "uncompactCells",
+        "uncompactCellsSize"
+      ],
+      "n_api_functions": 9,
+      "external_links": [
+        "https://uber.github.io/h3-py/api_verbose.html#h3.cell_to_center_child",
+        "https://uber.github.io/h3-py/api_verbose.html#h3.cell_to_children",
+        "https://uber.github.io/h3-py/api_verbose.html#h3.cell_to_children_size",
+        "https://uber.github.io/h3-py/api_verbose.html#h3.cell_to_parent"
+      ],
+      "n_external_links": 4,
+      "internal_links": [],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nThese functions permit moving between resolutions in the H3 grid system.\nThe functions produce parent cells (coarser), or child cells (finer).\n\n## cellToParent\n\nProvides the unique ancestor (coarser) cell of the given `cell` for\nthe provided resolution. If the input cell has resolution `r`, then\n`parentRes = r - 1` would give the immediate parent,\n`parentRes = r - 2` would give the grandparent, and so on.\n\n<Tabs\n  groupId=\"la"
+    },
+    {
+      "path": "api/indexing.mdx",
+      "section": "api",
+      "url": "https://h3geo.org/docs/api/indexing",
+      "id": "indexing",
+      "title": "Indexing functions",
+      "slug": "/api/indexing",
+      "bytes": 6528,
+      "words": 776,
+      "n_headings": 3,
+      "headings": [
+        "latLngToCell",
+        "cellToLatLng",
+        "cellToBoundary"
+      ],
+      "api_functions": [
+        "latLngToCell",
+        "cellToLatLng",
+        "cellToBoundary"
+      ],
+      "n_api_functions": 3,
+      "external_links": [
+        "https://uber.github.io/h3-py/api_quick.html#polygon-interface"
+      ],
+      "n_external_links": 1,
+      "internal_links": [
+        "../core-library/cellToBoundaryDesc",
+        "../core-library/cellToLatLngDesc",
+        "../core-library/latLngToCellDesc"
+      ],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nThese functions are used for finding the H3 cell index containing coordinates,\nand for finding the center and boundary of H3 cells.\n\n## latLngToCell\n\nIndexes the location at the specified resolution,\nproviding the index of the cell containing the location.\nThis buckets the geographic point into the H3 grid.\nFor more information, see the\n[algorithm description](../core-library/latLngToCellDesc).\n\n<Tabs\n  groupId=\"language\"\n  d"
+    },
+    {
+      "path": "api/inspection.mdx",
+      "section": "api",
+      "url": "https://h3geo.org/docs/api/inspection",
+      "id": "inspection",
+      "title": "Index inspection functions",
+      "slug": "/api/inspection",
+      "bytes": 21064,
+      "words": 2537,
+      "n_headings": 12,
+      "headings": [
+        "getResolution",
+        "getBaseCellNumber",
+        "getIndexDigit",
+        "constructCell",
+        "stringToH3",
+        "h3ToString",
+        "isValidCell",
+        "isValidIndex",
+        "isResClassIII",
+        "isPentagon",
+        "getIcosahedronFaces",
+        "maxFaceCount"
+      ],
+      "api_functions": [
+        "getResolution",
+        "getBaseCellNumber",
+        "getIndexDigit",
+        "constructCell",
+        "stringToH3",
+        "h3ToString",
+        "isValidCell",
+        "isValidIndex",
+        "isResClassIII",
+        "isPentagon",
+        "getIcosahedronFaces",
+        "maxFaceCount"
+      ],
+      "n_api_functions": 12,
+      "external_links": [
+        "https://h3geo.org/docs/library/index/cell"
+      ],
+      "n_external_links": 1,
+      "internal_links": [],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nThese functions provide metadata about an H3 index, such as its resolution or base cell, and provide utilities for converting into and out of the 64-bit representation of an H3 index.\n\n## getResolution\n\nReturns the resolution of the index.\n(Works for cells, edges, and vertexes.)\n\n<Tabs\n  groupId=\"language\"\n  defaultValue=\"c\"\n  values={[\n    {label: 'C', value: 'c'},\n    {label: 'Java', value: 'java'},\n    {label: 'JavaScript "
+    },
+    {
+      "path": "api/misc.mdx",
+      "section": "api",
+      "url": "https://h3geo.org/docs/api/misc",
+      "id": "misc",
+      "title": "Miscellaneous H3 functions",
+      "slug": "/api/misc",
+      "bytes": 35835,
+      "words": 4021,
+      "n_headings": 21,
+      "headings": [
+        "degsToRads",
+        "radsToDegs",
+        "getHexagonAreaAvgKm2",
+        "getHexagonAreaAvgM2",
+        "cellAreaRads2",
+        "cellAreaKm2",
+        "cellAreaM2",
+        "getHexagonEdgeLengthAvgKm",
+        "getHexagonEdgeLengthAvgM",
+        "edgeLengthKm",
+        "edgeLengthM",
+        "edgeLengthRads",
+        "getNumCells",
+        "getRes0Cells",
+        "res0CellCount",
+        "getPentagons",
+        "pentagonCount",
+        "greatCircleDistanceKm",
+        "greatCircleDistanceM",
+        "greatCircleDistanceRads",
+        "describeH3Error"
+      ],
+      "api_functions": [
+        "degsToRads",
+        "radsToDegs",
+        "getHexagonAreaAvgKm2",
+        "getHexagonAreaAvgM2",
+        "cellAreaRads2",
+        "cellAreaKm2",
+        "cellAreaM2",
+        "getHexagonEdgeLengthAvgKm",
+        "getHexagonEdgeLengthAvgM",
+        "edgeLengthKm",
+        "edgeLengthM",
+        "edgeLengthRads",
+        "getNumCells",
+        "getRes0Cells",
+        "res0CellCount",
+        "getPentagons",
+        "pentagonCount",
+        "greatCircleDistanceKm",
+        "greatCircleDistanceM",
+        "greatCircleDistanceRads",
+        "describeH3Error"
+      ],
+      "n_api_functions": 21,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nThese functions include descriptions of the H3 grid system.\n\n## degsToRads\n\nConverts degrees to radians.\n\n<Tabs\n  groupId=\"language\"\n  defaultValue=\"c\"\n  values={[\n    {label: 'C', value: 'c'},\n    {label: 'Java', value: 'java'},\n    {label: 'JavaScript (Live)', value: 'javascript'},\n    {label: 'Python', value: 'python'},\n    {label: 'Go', value: 'go'},\n    {label: 'DuckDB', value: 'duckdb'},\n    {label: 'Shell', value: 'she"
+    },
+    {
+      "path": "api/regions.mdx",
+      "section": "api",
+      "url": "https://h3geo.org/docs/api/regions",
+      "id": "regions",
+      "title": "Region functions",
+      "slug": "/api/regions",
+      "bytes": 17475,
+      "words": 2057,
+      "n_headings": 6,
+      "headings": [
+        "polygonToCells",
+        "maxPolygonToCellsSize",
+        "polygonToCellsExperimental",
+        "maxPolygonToCellsSizeExperimental",
+        "cellsToLinkedMultiPolygon / cellsToMultiPolygon",
+        "destroyLinkedMultiPolygon"
+      ],
+      "api_functions": [
+        "polygonToCells",
+        "maxPolygonToCellsSize",
+        "polygonToCellsExperimental",
+        "maxPolygonToCellsSizeExperimental",
+        "destroyLinkedMultiPolygon"
+      ],
+      "n_api_functions": 5,
+      "external_links": [
+        "https://uber.github.io/h3-py/api_quick.html#polygon-interface"
+      ],
+      "n_external_links": 1,
+      "internal_links": [],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nThese functions convert H3 indexes to and from polygonal areas.\n\n## polygonToCells\n\nEach binding's version of `polygonToCells` takes as input a GeoJSON-like data\nstructure describing a polygon (i.e., an outer ring and optional holes) and\na target cell resolution.\nIt produces a collection of cells that are contained within the polygon.\n\nContainment is determined by centroids of the cells, so that a partitioning\nof polygons (co"
+    },
+    {
+      "path": "api/traversal.mdx",
+      "section": "api",
+      "url": "https://h3geo.org/docs/api/traversal",
+      "id": "traversal",
+      "title": "Grid traversal functions",
+      "slug": "/api/traversal",
+      "bytes": 31225,
+      "words": 3606,
+      "n_headings": 15,
+      "headings": [
+        "gridDistance",
+        "gridRing",
+        "gridRingUnsafe",
+        "maxGridRingSize",
+        "gridDisk",
+        "maxGridDiskSize",
+        "gridDiskDistances",
+        "gridDiskUnsafe",
+        "gridDiskDistancesUnsafe",
+        "gridDiskDistancesSafe",
+        "gridDisksUnsafe",
+        "gridPathCells",
+        "gridPathCellsSize",
+        "cellToLocalIj",
+        "localIjToCell"
+      ],
+      "api_functions": [
+        "gridDistance",
+        "gridRing",
+        "gridRingUnsafe",
+        "maxGridRingSize",
+        "gridDisk",
+        "maxGridDiskSize",
+        "gridDiskDistances",
+        "gridDiskUnsafe",
+        "gridDiskDistancesUnsafe",
+        "gridDiskDistancesSafe",
+        "gridDisksUnsafe",
+        "gridPathCells",
+        "gridPathCellsSize",
+        "cellToLocalIj",
+        "localIjToCell"
+      ],
+      "n_api_functions": 15,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nGrid traversal allows finding cells in the vicinity of an origin cell,\nand determining how to traverse the grid from one cell to another.\n\n## gridDistance\n\nProvides the *grid distance* between two cells, which is\ndefined as the minimum number of \"hops\" needed across adjacent cells to get\nfrom one cell to the other.\n\nNote that finding the grid distance may fail for a few reasons:\n\n- the cells are not comparable (different reso"
+    },
+    {
+      "path": "api/vertex.mdx",
+      "section": "api",
+      "url": "https://h3geo.org/docs/api/vertex",
+      "id": "vertex",
+      "title": "Vertex functions",
+      "slug": "/api/vertex",
+      "bytes": 7330,
+      "words": 863,
+      "n_headings": 4,
+      "headings": [
+        "cellToVertex",
+        "cellToVertexes",
+        "vertexToLatLng",
+        "isValidVertex"
+      ],
+      "api_functions": [
+        "cellToVertex",
+        "cellToVertexes",
+        "vertexToLatLng",
+        "isValidVertex"
+      ],
+      "n_api_functions": 4,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nVertex mode allows encoding the topological vertexes of H3 cells.\n\n## cellToVertex\n\nReturns the index for the specified cell vertex.\nValid vertex numbers are between 0 and 5 (inclusive)\nfor hexagonal cells, and 0 and 4 (inclusive) for pentagonal cells.\n\n<Tabs\n  groupId=\"language\"\n  defaultValue=\"c\"\n  values={[\n    {label: 'C', value: 'c'},\n    {label: 'Java', value: 'java'},\n    {label: 'JavaScript (Live)', value: 'javascript"
+    },
+    {
+      "path": "community/applications.md",
+      "section": "community",
+      "url": "https://h3geo.org/docs/community/applications",
+      "id": "applications",
+      "title": "Applications Using H3",
+      "slug": "/community/applications",
+      "bytes": 646,
+      "words": 76,
+      "n_headings": 1,
+      "headings": [
+        "Visualization"
+      ],
+      "api_functions": [
+        "Visualization"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "http://kepler.gl/",
+        "https://deckgl.readthedocs.io/",
+        "https://github.com/uber/h3/tree/master/website/docs/community/applications.md",
+        "https://h3.chotard.com/"
+      ],
+      "n_external_links": 4,
+      "internal_links": [],
+      "preview": "The following applications use H3. Contributions to this list are welcome, please feel free to open a [pull request](https://github.com/uber/h3/tree/master/website/docs/community/applications.md).\n\n## Visualization\n\n- [kepler.gl](http://kepler.gl/) - An open source geospatial analysis tool\n- [pydeck](https://deckgl.readthedocs.io/) - High-scale spatial rendering in Python, powered by deck.gl\n- [h3-viewer](https://h3.chotard.com/) - Debugging tool to visualise h3 on mercator projection, powered b"
+    },
+    {
+      "path": "community/bindings.md",
+      "section": "community",
+      "url": "https://h3geo.org/docs/community/bindings",
+      "id": "bindings",
+      "title": "Bindings",
+      "slug": "/community/bindings",
+      "bytes": 4529,
+      "words": 599,
+      "n_headings": 32,
+      "headings": [
+        "Athena",
+        "Azure Data Explorer",
+        "BigQuery",
+        "C&#35;",
+        "ClickHouse",
+        "Clojure",
+        "Dart",
+        "Databricks",
+        "Delphi",
+        "DuckDB",
+        "ECL",
+        "Erlang",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Julia",
+        "Kinetica",
+        "Nim",
+        "OCaml",
+        "Perl",
+        "PHP",
+        "PostgreSQL",
+        "Presto",
+        "Python",
+        "R",
+        "Ruby",
+        "Rust",
+        "Snowflake",
+        "SQLite3",
+        "SQL Server"
+      ],
+      "api_functions": [
+        "Athena",
+        "BigQuery",
+        "ClickHouse",
+        "Clojure",
+        "Dart",
+        "Databricks",
+        "Delphi",
+        "DuckDB",
+        "ECL",
+        "Erlang",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Julia",
+        "Kinetica",
+        "Nim",
+        "OCaml",
+        "Perl",
+        "PHP",
+        "PostgreSQL",
+        "Presto",
+        "Python",
+        "R",
+        "Ruby",
+        "Rust",
+        "Snowflake",
+        "SQLite3",
+        "Spark",
+        "Swift"
+      ],
+      "n_api_functions": 29,
+      "external_links": [
+        "https://clickhouse.com/docs/en/sql-reference/functions/geo/h3/",
+        "https://docs.databricks.com/sql/language-manual/sql-ref-h3-geospatial-functions.html",
+        "https://docs.kinetica.com/7.1/sql/query/#h3-functions",
+        "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/geo-point-to-h3cell-function",
+        "https://github.com/CartoDB/analytics-toolbox-core#bigquery",
+        "https://github.com/CartoDB/analytics-toolbox-core#snowflake",
+        "https://github.com/DahnJ/H3-Pandas",
+        "https://github.com/Factual/geo",
+        "https://github.com/Filimoa/polars-h3",
+        "https://github.com/Foysal50x/h3-php",
+        "https://github.com/HydroniumLabs/h3o",
+        "https://github.com/JeremyEspresso/swift-h3",
+        "https://github.com/JosephChotard/h3spark",
+        "https://github.com/RichardVasquez/h3net",
+        "https://github.com/SkybuckFlying/h3_delphi",
+        "https://github.com/abler98/h3-php",
+        "https://github.com/ayman-albaz/nim-h3",
+        "https://github.com/codewithsam110g/h3_flutter_bindings",
+        "https://github.com/crazycapivara/h3-r",
+        "https://github.com/daniel-cortez-stevenson/aws-athena-udfs-h3",
+        "https://github.com/dfellis/h3-node",
+        "https://github.com/entrepreneur-interet-general/H3.Standard",
+        "https://github.com/festelo/h3_flutter",
+        "https://github.com/foursquare/h3-presto",
+        "https://github.com/helium/erlang-h3",
+        "https://github.com/hpcc-systems/HPCC-Platform/tree/master/plugins/h3",
+        "https://github.com/isaacbrodsky/h3-duckdb",
+        "https://github.com/isaacbrodsky/h3-sqlite3",
+        "https://github.com/kevinschaich/h3-pyspark",
+        "https://github.com/neatlife/php-h3",
+        "https://github.com/nmandery/h3ron",
+        "https://github.com/obrl-soil/h3jsr",
+        "https://github.com/pawelmajcher/SwiftyH3",
+        "https://github.com/pocketken/H3.net",
+        "https://github.com/realPrimoh/h3-reactnative",
+        "https://github.com/rustyconover/libh3",
+        "https://github.com/rustyconover/libh3-sys",
+        "https://github.com/scottmmjackson/h3r",
+        "https://github.com/seanhandley/h3_ruby",
+        "https://github.com/tbbuck/H3.net.SqlClr"
+      ],
+      "n_external_links": 49,
+      "internal_links": [],
+      "preview": "As a C library, bindings can be made to call H3 functions from different programming languages. This page lists different bindings currently available. Contributions to this list are welcome, please feel free to open a [pull request](https://github.com/uber/h3/tree/master/website/docs/community/bindings.md).\n\n## Athena\n\n- [daniel-cortez-stevenson/aws-athena-udfs-h3](https://github.com/daniel-cortez-stevenson/aws-athena-udfs-h3)\n\n## Azure Data Explorer\n\n- [Functions for Working with H3 Indexes](h"
+    },
+    {
+      "path": "community/libraries.md",
+      "section": "community",
+      "url": "https://h3geo.org/docs/community/libraries",
+      "id": "libraries",
+      "title": "Libraries Using H3",
+      "slug": "/community/libraries",
+      "bytes": 719,
+      "words": 83,
+      "n_headings": 3,
+      "headings": [
+        "JavaScript",
+        "Python",
+        "Rust"
+      ],
+      "api_functions": [
+        "JavaScript",
+        "Python",
+        "Rust"
+      ],
+      "n_api_functions": 3,
+      "external_links": [
+        "https://github.com/nmandery/h3ron",
+        "https://github.com/nmandery/h3ronpy",
+        "https://github.com/uber/geojson2H3",
+        "https://github.com/uber/h3/tree/master/website/docs/community/libraries.md"
+      ],
+      "n_external_links": 4,
+      "internal_links": [],
+      "preview": "The following libraries use H3 via one of its bindings. Contributions to this list are welcome, please feel free to open a [pull request](https://github.com/uber/h3/tree/master/website/docs/community/libraries.md).\n\n## JavaScript\n\n- [uber/geojson2H3](https://github.com/uber/geojson2H3) - Conversion utilities between H3 indexes and GeoJSON\n\n## Python\n\n- [nmandery/h3ronpy](https://github.com/nmandery/h3ronpy) - Raster to H3 conversion, smoothing of linked polygons.\n\n## Rust\n\n- [nmandery/h3ron](htt"
+    },
+    {
+      "path": "community/tutorials.md",
+      "section": "community",
+      "url": "https://h3geo.org/docs/community/tutorials",
+      "id": "tutorials",
+      "title": "Learning Resources",
+      "slug": "/community/tutorials",
+      "bytes": 2331,
+      "words": 302,
+      "n_headings": 5,
+      "headings": [
+        "Community",
+        "Videos",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "api_functions": [
+        "Community",
+        "Videos",
+        "Java",
+        "JavaScript",
+        "Python"
+      ],
+      "n_api_functions": 5,
+      "external_links": [
+        "https://beta.observablehq.com/collection/@nrabinowitz/h3-tutorial",
+        "https://github.com/isaacbrodsky/h3measurements",
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/unified_data_layers.ipynb",
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/urban_analytics.ipynb",
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/usage.ipynb",
+        "https://github.com/uber/h3/tree/master/website/docs/community/tutorials.md",
+        "https://join.slack.com/t/h3-core/shared_invite/zt-g6u5r1hf-W_~uVJmfeiWtMQuBGc1NNg",
+        "https://www.youtube.com/watch?v=0OlIpNAqokQ&list=PLLEUtp5eGr7CNf9Bj3w3i30rzaU8lKZeV&index=18&t=0s",
+        "https://www.youtube.com/watch?v=BsMIrBHLfLE&list=PLLEUtp5eGr7CNf9Bj3w3i30rzaU8lKZeV&index=16&t=0s",
+        "https://www.youtube.com/watch?v=PutOhe8HVNU",
+        "https://www.youtube.com/watch?v=UILoSqvIM2w&list=PLLEUtp5eGr7CNf9Bj3w3i30rzaU8lKZeV&index=15&t=0s",
+        "https://www.youtube.com/watch?v=_-265mfMzl4&list=PLLEUtp5eGr7CNf9Bj3w3i30rzaU8lKZeV&index=22&t=0s",
+        "https://www.youtube.com/watch?v=aCj-YVZ0mlE",
+        "https://www.youtube.com/watch?v=ay2uwtRO3QE",
+        "https://www.youtube.com/watch?v=wDuKeUkNLkQ",
+        "https://www.youtube.com/watch?v=z3PaGIQTFSE&list=PLLEUtp5eGr7CNf9Bj3w3i30rzaU8lKZeV&index=14&t=0s"
+      ],
+      "n_external_links": 16,
+      "internal_links": [],
+      "preview": "This page lists further learning materials and code walkthroughs for the H3 library and bindings. Contributions to this list are welcome, please feel free to open a [pull request](https://github.com/uber/h3/tree/master/website/docs/community/tutorials.md).\n\n## Community\n\n- [H3 Slack workspace](https://join.slack.com/t/h3-core/shared_invite/zt-g6u5r1hf-W_~uVJmfeiWtMQuBGc1NNg)\n\n## Videos\n\n- [Introduction to H3](https://www.youtube.com/watch?v=wDuKeUkNLkQ) (June 2019)\n- [Engineering an H3-based Geo"
+    },
+    {
+      "path": "comparisons/admin.md",
+      "section": "comparisons",
+      "url": "https://h3geo.org/docs/comparisons/admin",
+      "id": "admin",
+      "title": "Admin Boundaries",
+      "slug": "/comparisons/admin",
+      "bytes": 1904,
+      "words": 275,
+      "n_headings": 3,
+      "headings": [
+        "ZIP Codes",
+        "Use case specific partitioning",
+        "ZIP Codes vs H3 comparison"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [
+        "https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh",
+        "https://fas.org/sgp/crs/misc/RL33488.pdf",
+        "https://towardsdatascience.com/stop-using-zip-codes-for-geospatial-analysis-ceacb6e80c38"
+      ],
+      "n_external_links": 3,
+      "internal_links": [],
+      "preview": "Administrative boundaries, such as ZIP Codes and Census Blocks in the United States, can be used for aggregating and analyzing data. These boundaries have a number of drawbacks for aggregating data. These are primarily related to not having a comparable spatial unit of analysis, being unable to spatially relate data, and being unrelated to the data being analyzed.\n\n## ZIP Codes\n\nThe article [Stop Using Zip Codes for Geospatial Analysis](https://towardsdatascience.com/stop-using-zip-codes-for-geo"
+    },
+    {
+      "path": "comparisons/geohash.md",
+      "section": "comparisons",
+      "url": "https://h3geo.org/docs/comparisons/geohash",
+      "id": "geohash",
+      "title": "Geohash",
+      "slug": "/comparisons/geohash",
+      "bytes": 1360,
+      "words": 188,
+      "n_headings": 3,
+      "headings": [
+        "Area distortion",
+        "Identifiers",
+        "Geohash vs H3 Comparison"
+      ],
+      "api_functions": [
+        "Identifiers"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq",
+        "https://en.wikipedia.org/wiki/Geohash"
+      ],
+      "n_external_links": 2,
+      "internal_links": [],
+      "preview": "[Geohash](https://en.wikipedia.org/wiki/Geohash) is a system for encoding locations using a string of characters, creating a hierarchical, square grid system (a quadtree).\n\n## Area distortion\n\nBecause Geohash encodes latitude and longitudes pairs, it is subject to significant differences in area at different latitudes. A degree of longitude near a pole represents a significantly smaller distance than a degree of longitude near the equator.\n\n## Identifiers\n\nGeohash uses strings for its cell index"
+    },
+    {
+      "path": "comparisons/hexbin.md",
+      "section": "comparisons",
+      "url": "https://h3geo.org/docs/comparisons/hexbin",
+      "id": "hexbin",
+      "title": "Hexbin",
+      "slug": "/comparisons/hexbin",
+      "bytes": 1466,
+      "words": 213,
+      "n_headings": 1,
+      "headings": [
+        "Hexbin vs H3 Comparison"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [
+        "https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq"
+      ],
+      "n_external_links": 1,
+      "internal_links": [],
+      "preview": "Hexbinning is the process of taking coordinates and binning them into hexagonal cells in analytics or mapping software. The size of the hexagons is configurable, and the hexagons can align with the map projection being used.\n\nHexbins are generally very computationally cheap to create, and for the best performance can be computed directly on a GPU. Their coordinates, while not hierarchical, support many common operations like finding neighbors and grid distances very efficiently.\n\nHexbins have dr"
+    },
+    {
+      "path": "comparisons/placekey.md",
+      "section": "comparisons",
+      "url": "https://h3geo.org/docs/comparisons/placekey",
+      "id": "placekey",
+      "title": "Placekey",
+      "slug": "/comparisons/placekey",
+      "bytes": 687,
+      "words": 98,
+      "n_headings": 0,
+      "headings": [],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [
+        "https://www.placekey.io/"
+      ],
+      "n_external_links": 1,
+      "internal_links": [],
+      "preview": "[Placekey](https://www.placekey.io/) is a system for encoding points of interest (POIs), and incorporates H3 in its POI identifier.\n\nFor example, the Placekey for the Ferry Building in San Francisco, `zzw-22y@5vg-7gt-qzz`, contains a What Part (`zzw-22y`) encoding a specific POI, and a Where Part (`5vg-7gt-qzz`) encoding where that POI is. The Where Part is an H3 cell index at resolution 10, using an alternate string encoding. The example Where Part represents the H3 index `8a283082a677fff`. Pla"
+    },
+    {
+      "path": "comparisons/s2.md",
+      "section": "comparisons",
+      "url": "https://h3geo.org/docs/comparisons/s2",
+      "id": "s2",
+      "title": "S2",
+      "slug": "/comparisons/s2",
+      "bytes": 2598,
+      "words": 403,
+      "n_headings": 5,
+      "headings": [
+        "Neighbors",
+        "Subdivision",
+        "Visualization",
+        "Links",
+        "S2 vs H3 Comparison"
+      ],
+      "api_functions": [
+        "Neighbors",
+        "Subdivision",
+        "Visualization",
+        "Links"
+      ],
+      "n_api_functions": 4,
+      "external_links": [
+        "https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq",
+        "https://docs.google.com/presentation/d/1Hl4KapfAENAOf4gv-pSngKwvS_jwNVHRPZTTDzXXn6Q/edit",
+        "https://s2geometry.io/"
+      ],
+      "n_external_links": 3,
+      "internal_links": [],
+      "preview": "[S2](https://s2geometry.io/), like H3, implements an open source, hierarchical, discrete, and global grid system. The systems share a number of similarities, including the use of 64 bit integers as cell indexes, making it very efficient to use both of them in big data systems.\n\nOne of the main differences between S2 and H3 is the choice of cell shape. S2 uses square cells while H3 uses hexagonal cells. This leads to important differences in neighbors, subdivision, and visualization.\n\n## Neighbor"
+    },
+    {
+      "path": "core-library/cellToBoundaryDesc.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/cellToBoundaryDesc",
+      "id": "cellToBoundaryDesc",
+      "title": "Generate the cell boundary in latitude/longitude coordinates of an H3Index cell",
+      "slug": "/core-library/cellToBoundaryDesc",
+      "bytes": 1834,
+      "words": 242,
+      "n_headings": 0,
+      "headings": [],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [
+        "/docs/core-library/cellToLatLngDesc",
+        "/docs/core-library/coordsystems"
+      ],
+      "preview": "This operation is performed by function `cellToBoundary`. See the comments in the function source code for more detail.\n\nThe conversion is performed as a series of coordinate system conversions described below. See the page [Coordinate Systems used by the H3 Core Library](/docs/core-library/coordsystems) for more information on each of these coordinate systems.\n\n1. We note that the cell vertices are the center points of cells in an aperture 3 grid one resolution finer than the cell resolution, w"
+    },
+    {
+      "path": "core-library/cellToLatLngDesc.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/cellToLatLngDesc",
+      "id": "cellToLatLngDesc",
+      "title": "Determine the latitude/longitude coordinates of the center point of an H3Index cell",
+      "slug": "/core-library/cellToLatLngDesc",
+      "bytes": 2159,
+      "words": 296,
+      "n_headings": 0,
+      "headings": [],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [
+        "/docs/core-library/coordsystems"
+      ],
+      "preview": "This operation is performed by function `cellToLatLng`. See the comments in the function source code for more detail.\n\nThe conversion is performed as a series of coordinate system conversions described below. See the page [Coordinate Systems used by the H3 Core Library](/docs/core-library/coordsystems) for more information on each of these coordinate systems.\n\n1.  The function `_h3ToFaceIjk` then converts the H3 index to the appropriate icosahedron face number and normalized *ijk* coordinate's o"
+    },
+    {
+      "path": "core-library/compilation-options.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/compilation-options",
+      "id": "compilation-options",
+      "title": "Compilation options",
+      "slug": "/core-library/compilation-options",
+      "bytes": 4221,
+      "words": 573,
+      "n_headings": 20,
+      "headings": [
+        "AUDIT_SOURCE_FILE_LIST",
+        "BUILD_ALLOC_TESTS",
+        "BUILD_BENCHMARKS",
+        "BUILD_COUNTRY_BENCHMARKS",
+        "BUILD_FILTERS",
+        "BUILD_GENERATORS",
+        "BUILD_TESTING",
+        "BUILD_FUZZERS",
+        "ENABLE_LIBFUZZER",
+        "CMAKE_BUILD_TYPE",
+        "ENABLE_COVERAGE",
+        "ENABLE_DOCS",
+        "ENABLE_FORMAT",
+        "ENABLE_LINTING",
+        "H3_ALLOC_PREFIX",
+        "H3_PREFIX",
+        "PRINT_TEST_FILES",
+        "ENABLE_WARNINGS",
+        "WARNINGS_AS_ERRORS",
+        "WRAP_VALGRIND"
+      ],
+      "api_functions": [
+        "AUDIT_SOURCE_FILE_LIST",
+        "BUILD_ALLOC_TESTS",
+        "BUILD_BENCHMARKS",
+        "BUILD_COUNTRY_BENCHMARKS",
+        "BUILD_FILTERS",
+        "BUILD_GENERATORS",
+        "BUILD_TESTING",
+        "BUILD_FUZZERS",
+        "ENABLE_LIBFUZZER",
+        "CMAKE_BUILD_TYPE",
+        "ENABLE_COVERAGE",
+        "ENABLE_DOCS",
+        "ENABLE_FORMAT",
+        "ENABLE_LINTING",
+        "H3_ALLOC_PREFIX",
+        "H3_PREFIX",
+        "PRINT_TEST_FILES",
+        "ENABLE_WARNINGS",
+        "WARNINGS_AS_ERRORS",
+        "WRAP_VALGRIND"
+      ],
+      "n_api_functions": 20,
+      "external_links": [
+        "https://cmake.org/cmake/help/latest/prop_tgt/LANG_CLANG_TIDY.html",
+        "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wall",
+        "https://github.com/nvkelso/natural-earth-vector/",
+        "https://github.com/uber/h3/tree/master/website",
+        "https://lcamtuf.coredump.cx/afl/",
+        "https://www.llvm.org/docs/LibFuzzer.html"
+      ],
+      "n_external_links": 6,
+      "internal_links": [
+        "./custom-alloc",
+        "./filters",
+        "./testing",
+        "./testing#benchmarks",
+        "./testing#fuzzers",
+        "./usage#function-renaming"
+      ],
+      "preview": "A number of options in CMake can be set when compiling the H3 core library. These are relevant for building\ndifferent ways of using and testing the library and do not affect the underlying algorithms.\n\nWhen configuring with CMake, an option may be specified using `-D` on the command line, like so for setting\n`CMAKE_BUILD_TYPE` to `Release`:\n\n```bash\ncmake .. -DCMAKE_BUILD_TYPE=Release\n```\n\nBoolean options should be set to `ON` or `OFF`, like so:\n\n```bash\ncmake .. -DBUILD_TESTING=OFF\n```\n\n## AUDI"
+    },
+    {
+      "path": "core-library/coordsystems.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/coordsystems",
+      "id": "coordsystems",
+      "title": "Coordinate systems",
+      "slug": "/core-library/coordsystems",
+      "bytes": 3045,
+      "words": 444,
+      "n_headings": 0,
+      "headings": [],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [],
+      "preview": "The H3 Core Library uses the following coordinate systems internally.\n\nIJK Coordinates\n---\n\nDiscrete hexagon planar grid systems naturally have 3 coordinate axes spaced 120&deg; apart. We refer to such a system as an *ijk coordinate system*, for the three coordinate axes *i*, *j*, and *k*. A single *ijk* coordinate triplet is represented in the H3 Core Library using the structure type `CoordIJK`.\n\nUsing an *ijk* coordinate system to address hexagon grid cells provides multiple valid addresses fo"
+    },
+    {
+      "path": "core-library/creating-bindings.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/creating-bindings",
+      "id": "creating-bindings",
+      "title": "Creating bindings for H3",
+      "slug": "/core-library/creating-bindings",
+      "bytes": 1688,
+      "words": 265,
+      "n_headings": 3,
+      "headings": [
+        "Function naming",
+        "Community",
+        "Documentation"
+      ],
+      "api_functions": [
+        "Community",
+        "Documentation"
+      ],
+      "n_api_functions": 2,
+      "external_links": [
+        "https://github.com/uber/h3/edit/master/docs/community/bindings.md"
+      ],
+      "n_external_links": 1,
+      "internal_links": [
+        "/docs/api/indexing",
+        "/docs/community/bindings"
+      ],
+      "preview": "H3 is a C library, in part to make it simpler to create bindings for different programming languages. Each language usually has its own way to bind to C functions, but this document can serve as a starting point and list of tips.\n\nThere may already be [H3 bindings](/docs/community/bindings) available for your language of choice.\n\n## Function naming\n\nThe `make binding-functions` target produces a file `binding-functions` containing a list of function in the H3 public API, one per line. You can us"
+    },
+    {
+      "path": "core-library/custom-alloc.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/custom-alloc",
+      "id": "custom-alloc",
+      "title": "Memory allocation",
+      "slug": "/core-library/custom-alloc",
+      "bytes": 1933,
+      "words": 265,
+      "n_headings": 1,
+      "headings": [
+        "Custom Memory Allocators"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [],
+      "preview": "H3's approach to memory management is to rely on memory allocated by the caller as much as possible. This allows memory to be managed by an external framework.\n\nIn some cases (for example, `polygonToCells`), H3 allocates heap memory. When this is needed, it uses the standard C memory allocation functions.\n\n## Custom Memory Allocators\n\n:::caution\n\nOn some systems, such as Windows, the undefined symbols cannot be undefined at build time. Further changes to the H3 build are needed to provide custom"
+    },
+    {
+      "path": "core-library/filters.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/filters",
+      "id": "filters",
+      "title": "Unix-style Filters for H3",
+      "slug": "/core-library/filters",
+      "bytes": 2189,
+      "words": 231,
+      "n_headings": 0,
+      "headings": [],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [
+        "/docs/core-library/h3Indexing"
+      ],
+      "preview": "The directory `src/apps/filters` contains unix-style stdin/stdout filters that perform conversions between integer H3 indexes and other useful types. It currently contains the filters listed in the table below. See the header comments in each application source code file for more information.\n\nFilters are experimental and are not part of the semantic version of the H3 library.\n\nAll latitude/longitude coordinates are in decimal degrees. See the [H3 Index Representations](/docs/core-library/h3Inde"
+    },
+    {
+      "path": "core-library/latLngToCellDesc.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/latLngToCellDesc",
+      "id": "latLngToCellDesc",
+      "title": "Conversion from latitude/longitude to containing H3 cell index",
+      "slug": "/core-library/latLngToCellDesc",
+      "bytes": 1865,
+      "words": 255,
+      "n_headings": 0,
+      "headings": [],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [
+        "/docs/core-library/coordsystems"
+      ],
+      "preview": "This operation is performed by function `latLngToCell`. See the comments in the function for more detail.\n\nThe conversion is performed as a series of coordinate system conversions described below. See the page [Coordinate Systems used by the H3 Core Library](/docs/core-library/coordsystems) for more information on each of these coordinate systems.\n\n1. The input latitude/longitude coordinate is first converted into the containing icosahedron face and a *Hex2d* coordinate on that face using functi"
+    },
+    {
+      "path": "core-library/overview.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/overview",
+      "id": "overview",
+      "title": "Overview of the H3 Geospatial Indexing System",
+      "slug": "/core-library/overview",
+      "bytes": 2899,
+      "words": 449,
+      "n_headings": 0,
+      "headings": [],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [
+        "http://webpages.sou.edu/~sahrk/sqspc/pubs/gdggs03.pdf",
+        "https://en.wikipedia.org/wiki/WGS84",
+        "https://epsg.io/4326",
+        "https://richard.science/sci/2019_barnes_dgg_published.pdf"
+      ],
+      "n_external_links": 4,
+      "internal_links": [
+        "/docs/core-library/restable"
+      ],
+      "preview": "The H3 geospatial indexing system is a discrete global grid system (see [Sahr et al., 2003](http://webpages.sou.edu/~sahrk/sqspc/pubs/gdggs03.pdf)) consisting of a multi-precision hexagonal tiling of the sphere with hierarchical indexes.\n\nThe hexagonal grid system is created on the planar faces of a sphere-circumscribed icosahedron, and the grid cells are then projected to the surface of the sphere using an inverse face-centered polyhedral gnomonic projection. The coordinate reference system (CR"
+    },
+    {
+      "path": "core-library/testing.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/testing",
+      "id": "testing",
+      "title": "Testing strategy",
+      "slug": "/core-library/testing",
+      "bytes": 4197,
+      "words": 548,
+      "n_headings": 4,
+      "headings": [
+        "Unit testing",
+        "Defensive code",
+        "Benchmarks",
+        "Fuzzers"
+      ],
+      "api_functions": [
+        "Benchmarks",
+        "Fuzzers"
+      ],
+      "n_api_functions": 2,
+      "external_links": [
+        "https://github.com/google/oss-fuzz/tree/master/projects/h3",
+        "https://github.com/uber/h3/blob/master/CONTRIBUTING.md",
+        "https://github.com/uber/h3/tree/master/src/apps/fuzzers",
+        "https://valgrind.org/",
+        "https://www.sqlite.org/testing.html"
+      ],
+      "n_external_links": 5,
+      "internal_links": [],
+      "preview": "The H3 developers try to ensure the robustness and reliability of the H3 library. Tools used to do this include defensive code, unit tests with coverage reporting, and fuzzing.\n\nThe H3 library may despite these efforts behave unexpectedly; in these cases the developers\n[welcome feedback and contributions](https://github.com/uber/h3/blob/master/CONTRIBUTING.md).\n\n## Unit testing\n\nGithub Actions are used to run the H3 test suite for every commit. A variety of configurations, described below, are t"
+    },
+    {
+      "path": "core-library/usage.md",
+      "section": "core-library",
+      "url": "https://h3geo.org/docs/core-library/usage",
+      "id": "usage",
+      "title": "Public API",
+      "slug": "/core-library/usage",
+      "bytes": 1430,
+      "words": 204,
+      "n_headings": 4,
+      "headings": [
+        "API Versioning",
+        "Header preprocessing",
+        "API preconditions",
+        "Function renaming"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [
+        "https://github.com/uber/h3/blob/master/src/h3lib/include/h3api.h.in",
+        "https://semver.org/"
+      ],
+      "n_external_links": 2,
+      "internal_links": [
+        "./compilation-options#h3_prefix"
+      ],
+      "preview": "The public API of the H3 Core Library is defined in the file [`h3api.h`](https://github.com/uber/h3/blob/master/src/h3lib/include/h3api.h.in).\n\n## API Versioning\n\nThe functions defined in `h3api.h` adhere to [Semantic Versioning](https://semver.org/).\n\n## Header preprocessing\n\nThe file `h3api.h.in` is preprocessed into the file `h3api.h` as part of H3's build process. The preprocessing inserts the correct values for the `H3_VERSION_MAJOR`, `H3_VERSION_MINOR`, and `H3_VERSION_PATCH` macros.\n\n## A"
+    },
+    {
+      "path": "highlights/aggregation.md",
+      "section": "highlights",
+      "url": "https://h3geo.org/docs/highlights/aggregation",
+      "id": "aggregation",
+      "title": "Aggregation",
+      "slug": "/highlights/aggregation",
+      "bytes": 1982,
+      "words": 271,
+      "n_headings": 1,
+      "headings": [
+        "References"
+      ],
+      "api_functions": [
+        "References"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "http://webpages.sou.edu/~sahrk/sqspc/pubs/gdggs03.pdf",
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/usage.ipynb",
+        "https://observablehq.com/@nrabinowitz/h3-tutorial-the-h3-js-library?collection=@nrabinowitz/h3-tutorial",
+        "https://www.uber.com/en-GB/blog/h3/"
+      ],
+      "n_external_links": 4,
+      "internal_links": [],
+      "preview": "Analysis of location data, such as locations of cars in a city, can be done by bucketing locations. ([Sahr et al., 2003](http://webpages.sou.edu/~sahrk/sqspc/pubs/gdggs03.pdf)) Using a regular grid provides smooth gradients and the ability to measure differences between cells.\n\nThe cell shape of that grid system is an important consideration. For simplicity, it should be a polygon that tiles regularly: the triangle, the square, or the hexagon. Of these, triangles and squares have neighbors with "
+    },
+    {
+      "path": "highlights/flowmodel.md",
+      "section": "highlights",
+      "url": "https://h3geo.org/docs/highlights/flowmodel",
+      "id": "flowmodel",
+      "title": "Flow Modelling",
+      "slug": "/highlights/flowmodel",
+      "bytes": 821,
+      "words": 115,
+      "n_headings": 1,
+      "headings": [
+        "Links"
+      ],
+      "api_functions": [
+        "Links"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "https://observablehq.com/@nrabinowitz/h3-travel-times"
+      ],
+      "n_external_links": 1,
+      "internal_links": [],
+      "preview": "H3's hexagonal grid is well suited to analyzing movement. In addition to the benefits of the hexagonal grid shape, H3 includes other features for modelling flow.\n\nH3 can create indexes that refer to the movement from one cell to a neighbor. These directed edge indexes share the advantages with their cell index counterparts, such as being 64 bit integers. The use of directed edges makes it possible to associate a weight with a movement in the grid.\n\n(A planned improvement for the H3 system is to "
+    },
+    {
+      "path": "highlights/indexing.md",
+      "section": "highlights",
+      "url": "https://h3geo.org/docs/highlights/indexing",
+      "id": "indexing",
+      "title": "Indexing",
+      "slug": "/highlights/indexing",
+      "bytes": 3402,
+      "words": 494,
+      "n_headings": 1,
+      "headings": [
+        "Links"
+      ],
+      "api_functions": [
+        "Links"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "https://observablehq.com/@nrabinowitz/h3-hierarchical-non-containment?collection=@nrabinowitz/h3",
+        "https://observablehq.com/@nrabinowitz/shape-simplification-with-h3?collection=@nrabinowitz/h3"
+      ],
+      "n_external_links": 2,
+      "internal_links": [],
+      "preview": "H3 is a hierarchical geospatial index. H3 indexes refer to cells by the spatial hierarchy. Every hexagonal cell, up to the maximum resolution supported by H3, has seven child cells below it in this hierarchy. This subdivision is referred to as *aperture 7*.\n\n<div align=\"center\">\n  <img src=\"/images/parent-child.png\" style={{width:'400px'}} /><br />\n  <i>A parent hexagon approximately contains seven children</i>\n</div>\n\nHexagons do not cleanly subdivide into seven finer hexagons. However, by alte"
+    },
+    {
+      "path": "highlights/joining.md",
+      "section": "highlights",
+      "url": "https://h3geo.org/docs/highlights/joining",
+      "id": "joining",
+      "title": "Joining",
+      "slug": "/highlights/joining",
+      "bytes": 850,
+      "words": 109,
+      "n_headings": 1,
+      "headings": [
+        "References"
+      ],
+      "api_functions": [
+        "References"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/unified_data_layers.ipynb",
+        "https://observablehq.com/@nrabinowitz/h3-tutorial-suitability-analysis?collection=@nrabinowitz/h3-tutorial",
+        "https://www.placekey.io/"
+      ],
+      "n_external_links": 3,
+      "internal_links": [],
+      "preview": "H3, acting as a standard unit of analysis, can be used to join disparate data sets.\n\nThe H3 library contains support for indexing points, lines, and regions into the grid. Other data formats, such as rasters, can be indexed into H3 using combinations of these basic indexing operations. Once data is indexed into H3 indexes, it can be easily joined with other datasets on the H3 index.\n\n## References\n\n* Example: [Placekey](https://www.placekey.io/)\n* Jupyter notebook example: [Unified Data Layers]("
+    },
+    {
+      "path": "highlights/ml.md",
+      "section": "highlights",
+      "url": "https://h3geo.org/docs/highlights/ml",
+      "id": "ml",
+      "title": "Machine Learning",
+      "slug": "/highlights/ml",
+      "bytes": 885,
+      "words": 114,
+      "n_headings": 1,
+      "headings": [
+        "Links"
+      ],
+      "api_functions": [
+        "Links"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/urban_analytics.ipynb",
+        "https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148#:~:text=Convolution%20is%20the%20first%20layer,and%20a%20filter%20or%20kernel"
+      ],
+      "n_external_links": 2,
+      "internal_links": [],
+      "preview": "H3 is well suited to applying machine learning to geospatial data. Techniques from computer vision, such as [convolution](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148#:~:text=Convolution%20is%20the%20first%20layer,and%20a%20filter%20or%20kernel), can be applied to the pixel grid defined by H3.\n\nH3 has functions for finding neighbors (`kRing`) for use in performing convolution, and functions for transforming indexes to a two dimensi"
+    },
+    {
+      "path": "installation.mdx",
+      "section": "root",
+      "url": "https://h3geo.org/docs/installation",
+      "id": "installation",
+      "title": "Installation",
+      "slug": "/installation",
+      "bytes": 4176,
+      "words": 524,
+      "n_headings": 8,
+      "headings": [
+        "Package managers",
+        "Install from source",
+        "Installing the bare build requirements",
+        "Installing useful tools for development",
+        "Installing the bare build requirements",
+        "Installing the bare build requirements",
+        "Installing useful tools for development",
+        "Installing the build requirements"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [
+        "http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/",
+        "https://duckdb.org/community_extensions/extensions/h3.html",
+        "https://github.com/conda-forge/h3-py-feedstock",
+        "https://github.com/uber/h3",
+        "https://pypi.org/project/h3/"
+      ],
+      "n_external_links": 5,
+      "internal_links": [
+        "/docs/community/bindings"
+      ],
+      "preview": "import Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\nWe recommend using prebuilt [bindings](/docs/community/bindings) if they are available for your programming language. Bindings for Go, Java, JavaScript, Python, and others are available.\n\n## Package managers\n\n<Tabs\n  groupId=\"env\"\n  defaultValue=\"python\"\n  values={[\n    {label: 'Python', value: 'python'},\n    {label: 'Java', value: 'java'},\n    {label: 'JavaScript', value: 'javascript'},\n    {label: 'Homebrew', value: 'brew'}"
+    },
+    {
+      "path": "library/errors.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/library/errors",
+      "id": "errors",
+      "title": "Error handling",
+      "slug": "/library/errors",
+      "bytes": 3837,
+      "words": 510,
+      "n_headings": 5,
+      "headings": [
+        "Example",
+        "H3Error type",
+        "Table of error codes",
+        "Bindings",
+        "References"
+      ],
+      "api_functions": [
+        "Example",
+        "References"
+      ],
+      "n_api_functions": 2,
+      "external_links": [
+        "https://github.com/uber/h3/blob/master/dev-docs/RFCs/v4.0.0/error-handling-rfc.md"
+      ],
+      "n_external_links": 1,
+      "internal_links": [],
+      "preview": "H3 does it's best to be robust to system failures or unexpected inputs, but\nsome times these cannot be recovered from. H3's way of doing this is to return\nan error code to the caller.\n\n## Example\n\nThis code example checks for an error when calling an H3 function and prints a message if the call did not succeed:\n\n```c\nH3Error err;\nH3Index result;\n\nerr = latLngToCell(lat, lng, res, &result);\nif (err) {\n    fprintf(stderr, \"Error: %d\", err);\n}\n```\n\n## H3Error type\n\nThe type returned by most H3 func"
+    },
+    {
+      "path": "library/index/cell.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/library/index/cell",
+      "id": "cell",
+      "title": "Cell mode",
+      "slug": "/library/index/cell",
+      "bytes": 3341,
+      "words": 563,
+      "n_headings": 3,
+      "headings": [
+        "H3 Cell Index",
+        "Bit layout of H3Index for cells",
+        "Links"
+      ],
+      "api_functions": [
+        "Links"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "http://webpages.sou.edu/~sahrk/sqspc/pubs/autocarto14.pdf",
+        "https://observablehq.com/@nrabinowitz/h3-index-inspector?collection=@nrabinowitz/h3"
+      ],
+      "n_external_links": 2,
+      "internal_links": [],
+      "preview": "<div align=\"center\">\n  <img height=\"300\" src=\"/images/cell_mode.png\" />\n</div>\n\nThe H3 system assigns a unique hierarchical index to each cell. The H3 index of a resolution *r* cell begins with the appropriate resolution 0 base cell number. This is followed by a sequence of *r* digits 0-6, where each *i*<sup>th</sup> digit *d*<sub>i</sub> specifies one of the 7 cells centered on the cell indicated by the coarser resolution digits *d*<sub>1</sub> through *d*<sub>i-1</sub>. A local hexagon coordin"
+    },
+    {
+      "path": "library/index/directededge.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/library/index/directededge",
+      "id": "directededge",
+      "title": "Directed edge mode",
+      "slug": "/library/index/directededge",
+      "bytes": 2070,
+      "words": 336,
+      "n_headings": 1,
+      "headings": [
+        "Bit layout of H3Index for directed edges"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [
+        "./cell#h3-cell-index"
+      ],
+      "preview": "<div align=\"center\">\n  <img height=\"300\" src=\"/images/edge_mode.png\" />\n</div>\n\nAn H3 Directed Edge index (mode 2) represents a single directed edge between two cells (an \"origin\" cell and a neighboring \"destination\" cell). The components of the H3 Directed Edge index are packed into a 64-bit integer in order, highest bit first, as follows:\n\n* 1 bit reserved and set to 0,\n* 4 bits to indicate the H3 Unidirectional Edge index mode,\n* 3 bits to indicate the edge (1-6) of the origin cell,\n* Subsequ"
+    },
+    {
+      "path": "library/index/h3indexing.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/core-library/h3Indexing",
+      "id": "h3Indexing",
+      "title": "H3 Index",
+      "slug": "/core-library/h3Indexing",
+      "bytes": 3024,
+      "words": 486,
+      "n_headings": 5,
+      "headings": [
+        "Introduction",
+        "H3Index Representation",
+        "Invalid Index",
+        "Bit layout of H3Index",
+        "Links"
+      ],
+      "api_functions": [
+        "Introduction",
+        "Links"
+      ],
+      "n_api_functions": 2,
+      "external_links": [
+        "https://observablehq.com/@nrabinowitz/h3-index-bit-layout?collection=@nrabinowitz/h3"
+      ],
+      "n_external_links": 1,
+      "internal_links": [
+        "../errors.md",
+        "./cell.md",
+        "./directededge.md",
+        "./vertex.md"
+      ],
+      "preview": "## Introduction\n\nThe H3 system assigns a unique hierarchical index to each cell. Each directed edge and vertex is assigned an index based on its origin or owner cell, respectively.\n\n## H3Index Representation\n\nAn `H3Index` is the 64-bit integer representation of an H3 index, which may be one of multiple modes to indicate the concept being indexed.\n\n* Mode 0 is reserved and indicates an [invalid H3 index](#invalid-index).\n* Mode 1 is an *[H3 Cell](./cell.md)* (Hexagon/Pentagon) index.\n* Mode 2 is "
+    },
+    {
+      "path": "library/index/vertex.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/library/index/vertex",
+      "id": "vertex",
+      "title": "Vertex mode",
+      "slug": "/library/index/vertex",
+      "bytes": 2305,
+      "words": 380,
+      "n_headings": 1,
+      "headings": [
+        "Bit layout of H3Index for vertexes"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [
+        "./cell#h3-cell-index"
+      ],
+      "preview": "<div align=\"center\">\n  <img height=\"300\" src=\"/images/vertex_mode.png\" />\n</div>\n\nAn H3 Vertex index (mode 4) represents a single topological vertex in H3 grid system, shared by three cells. Note that this does not include the distortion vertexes occasionally present in a cell's geographic boundary. An H3 Vertex is arbitrarily assigned one of the three neighboring cells as its \"owner\", which is used to calculate the canonical index and geographic coordinates for the vertex. The components of the"
+    },
+    {
+      "path": "library/migrating-3.x.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/library/migrating-3.x",
+      "id": "migrating-3.x",
+      "title": "Migrating from H3 version 3.x",
+      "slug": "/library/migrating-3.x",
+      "bytes": 1329,
+      "words": 210,
+      "n_headings": 2,
+      "headings": [
+        "Function naming",
+        "Error codes"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [
+        "./errors.md",
+        "./migration-3.x/functions.md",
+        "./terminology.md"
+      ],
+      "preview": "The H3 library introduced breaking changes in version 4.0.0, so applications developed against earlier versions\nneed to be updated before they can use the new library version. Most of the changes relate to function naming,\nand some relate to the behavior of the functions.\n\nThe grid itself - the layout of cells, which cell an H3 index refers to, and the structure of an H3 index - is\nnot changed in 4.0.0. H3 indexes generated by 3.x will be understood the same by 4.0.0, and those generated by 4.0."
+    },
+    {
+      "path": "library/migration-3.x/functions.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/library/migration-3.x/functions",
+      "id": "functions",
+      "title": "Function name changes",
+      "slug": "/library/migration-3.x/functions",
+      "bytes": 7926,
+      "words": 491,
+      "n_headings": 12,
+      "headings": [
+        "General Function Names",
+        "H3 Grid Functions",
+        "Distance",
+        "Filled-In Disk With Distances",
+        "Filled-In Disk Without Distances",
+        "Hollow Ring",
+        "Local IJ",
+        "H3 Edge Types",
+        "Area/Length Functions",
+        "Polygons",
+        "Data Structures",
+        "Functions"
+      ],
+      "api_functions": [
+        "Polygons"
+      ],
+      "n_api_functions": 1,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [],
+      "preview": "The following function and structure names changed from 3.x to 4.0.0:\n\n### General Function Names\n\n|            3.x name.          |      4.0.0 name       |\n|-------------------------------|-----------------------|\n| *Does Not Exist (DNE)*        | `isValidIndex`        |\n| `h3IsValid`                   | `isValidCell`         |\n| `h3UnidirectionalEdgeIsValid` | `isValidDirectedEdge` |\n| `h3IsPentagon`                | `isPentagon`          |\n| `h3IsResClassIII`             | `isResClassIII`    "
+    },
+    {
+      "path": "library/restable.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/core-library/restable",
+      "id": "restable",
+      "title": "Tables of Cell Statistics Across Resolutions",
+      "slug": "/core-library/restable",
+      "bytes": 12769,
+      "words": 1337,
+      "n_headings": 11,
+      "headings": [
+        "Cell counts",
+        "Cell areas",
+        "Average area in km<sup>2</sup>",
+        "Average area in m<sup>2</sup>",
+        "Hexagon min and max areas",
+        "Edge lengths",
+        "Appendix: Methodology",
+        "Cell counts",
+        "Derivation of the cell count formula",
+        "Jupyter notebook",
+        "Cell areas"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [
+        "https://en.wikipedia.org/wiki/Earth_radius#Authalic_radius",
+        "https://en.wikipedia.org/wiki/Geometric_series",
+        "https://en.wikipedia.org/wiki/WGS84",
+        "https://epsg.io/4326",
+        "https://github.com/uber/h3-py-notebooks",
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/stats_tables/avg_area_table.ipynb",
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/stats_tables/cell_counts.ipynb",
+        "https://github.com/uber/h3-py-notebooks/blob/master/notebooks/stats_tables/extreme_hex_area.ipynb"
+      ],
+      "n_external_links": 8,
+      "internal_links": [
+        "../core-library/overview.md"
+      ],
+      "preview": "## Cell counts\n\nWe list the number of hexagons and pentagons at each H3 resolution.\n[There are always exactly $12$ pentagons at every resolution](../core-library/overview.md).\n\n\n|   Res |   Total number of cells |   Number of hexagons |   Number of pentagons |\n|------:|------------------------:|---------------------:|----------------------:|\n|     0 |                     122 |                  110 |                    12 |\n|     1 |                     842 |                  830 |               "
+    },
+    {
+      "path": "library/terminology.md",
+      "section": "library",
+      "url": "https://h3geo.org/docs/library/terminology",
+      "id": "terminology",
+      "title": "Terminology",
+      "slug": "/library/terminology",
+      "bytes": 4588,
+      "words": 665,
+      "n_headings": 2,
+      "headings": [
+        "Use of \"hex\", \"hexagon\", \"cell\", \"pentagon\", etc.",
+        "References"
+      ],
+      "api_functions": [
+        "References"
+      ],
+      "n_api_functions": 1,
+      "external_links": [
+        "https://github.com/uber/h3-js/issues/53",
+        "https://github.com/uber/h3/blob/master/dev-docs/RFCs/v4.0.0/names_for_concepts_types_functions.md",
+        "https://observablehq.com/@fil/h3-oddities"
+      ],
+      "n_external_links": 3,
+      "internal_links": [],
+      "preview": "The following are technical terms used by H3.\n\n- `H3Index`:\n    - an unsigned 64-bit integer representing *any* H3 object (hexagon, pentagon, directed edge ...)\n    - often represented as a 15-character (or 16-character) hexadecimal string, like `'8928308280fffff'`\n    - the full term \"H3 index\" should be used to avoid confusion with other common uses of \"index\";\n      when a \"traditional\" index is needed, prefer using \"number\", \"pos\", or another term to avoid confusion\n- **mode**:\n    - an inte"
+    },
+    {
+      "path": "quickstart.md",
+      "section": "root",
+      "url": "https://h3geo.org/docs/quickstart",
+      "id": "quickstart",
+      "title": "Quick Start",
+      "slug": "/quickstart",
+      "bytes": 1443,
+      "words": 211,
+      "n_headings": 1,
+      "headings": [
+        "Point / cell"
+      ],
+      "api_functions": [],
+      "n_api_functions": 0,
+      "external_links": [],
+      "n_external_links": 0,
+      "internal_links": [
+        "/docs/community/bindings"
+      ],
+      "preview": "This page shows you how to get started with the functions in H3 that convert points to cell identifiers, and from cell identifiers back to geometry. These are the core indexing functions used in many applications of H3.\n\nYou can run the code on this page directly in your browser. The page uses the JavaScript bindings for H3 to run the code, or follow along with the same API in [your preferred programming language](/docs/community/bindings).\n\n## Point / cell\n\nFirst, we'll take the coordinates of "
+    }
+  ],
+  "doc_ia": {
+    "root": [
+      "Introduction",
+      "Installation",
+      "Quickstart"
+    ],
+    "highlights": "Why H3: indexing, joining, aggregation, flow modeling, ML",
+    "comparisons": "S2, Geohash, Hexbin, Admin boundaries, Placekey",
+    "core_library": "Architecture, coordinate systems, algorithms, bindings, testing",
+    "api": "Indexing, inspection, traversal, hierarchy, regions, directed edge, vertex, misc",
+    "library": "Terminology, H3Index modes, resolution table, errors, 3.x migration",
+    "community": "Bindings, libraries, applications, tutorials"
+  }
+}

@@ -1,0 +1,68 @@
+# Optional backends for h3lib integration tests.
+# Images: postgis/postgis, mysql, mongodb/mongodb-atlas-local, redis/redis-stack (no password).
+#
+#   docker compose up -d
+#   pytest -m integration -q
+#   docker compose down
+
+services:
+  postgres:
+    build:
+      context: ./docker/postgres
+      dockerfile: Dockerfile
+    image: h3lib-postgis-h3:16
+    container_name: h3lib-postgres
+    environment:
+      POSTGRES_USER: h3lib
+      POSTGRES_PASSWORD: h3lib
+      POSTGRES_DB: h3lib
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U h3lib -d h3lib"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  mysql:
+    image: mysql:8.4
+    container_name: h3lib-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: h3lib
+      MYSQL_DATABASE: h3lib
+      MYSQL_USER: h3lib
+      MYSQL_PASSWORD: h3lib
+    ports:
+      - "127.0.0.1:3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uh3lib", "-ph3lib"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  mongo:
+    image: mongodb/mongodb-atlas-local:latest
+    container_name: h3lib-mongo
+    environment:
+      DO_NOT_TRACK: "1"
+    ports:
+      - "127.0.0.1:27017:27017"
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.runCommand({ ping: 1 })"]
+      interval: 5s
+      timeout: 10s
+      retries: 30
+      start_period: 20s
+
+  redis:
+    image: redis/redis-stack:latest
+    container_name: h3lib-redis
+    # No requirepass — local-dev only; bind to loopback.
+    ports:
+      - "127.0.0.1:6379:6379"
+      - "127.0.0.1:8001:8001"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
