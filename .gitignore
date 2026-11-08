@@ -22,3 +22,4 @@ htmlcov/
 *.whl
 *.tar.gz
 .idea/
+site/

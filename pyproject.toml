@@ -36,7 +36,7 @@ all = [
 Homepage = "https://github.com/vickykumar7125/h3lib"
 Repository = "https://github.com/vickykumar7125/h3lib"
 Issues = "https://github.com/vickykumar7125/h3lib/issues"
-Documentation = "https://github.com/vickykumar7125/h3lib#readme"
+Documentation = "https://vickykumar7125.github.io/h3lib/"
 
 [tool.setuptools.packages.find]
 where = ["src"]
