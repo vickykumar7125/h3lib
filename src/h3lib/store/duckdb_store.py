@@ -73,8 +73,13 @@ class DuckDBStore(Store):
         return loads_payload(row[0])
 
     def delete(self, cell: str) -> bool:
-        result = self._conn.execute("DELETE FROM h3_cells WHERE cell = ?", [cell])
-        return int(getattr(result, "rowcount", 0) or 0) > 0
+        # DuckDB's Python cursor often leaves rowcount unset/0 after DELETE;
+        # RETURNING is the portable way to detect whether a row was removed.
+        row = self._conn.execute(
+            "DELETE FROM h3_cells WHERE cell = ? RETURNING cell",
+            [cell],
+        ).fetchone()
+        return row is not None
 
     def get_many(self, cells: Iterable[str]) -> dict[str, dict[str, Any]]:
         cell_list = list(cells)
